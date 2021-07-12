@@ -1,0 +1,7 @@
+@import './1-resets/normalize.css';
+@import './2-global/_global.css';
+@import './2-global/_typography.css';
+@import './3-variables/_custom-variables.css';
+@import './4-utilities/_utility-classes.css';
+/* @import './5-components/'; */
+@import './6-queries/_media-queries.css';

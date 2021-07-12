@@ -1,0 +1,41 @@
+{
+  "extends": ["stylelint-config-rational-order"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "indentation": 2,
+    "string-quotes": "single",
+    "no-duplicate-selectors": true,
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-order": [
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "z-index",
+      "display",
+      "float",
+      "width",
+      "height",
+      "margin",
+      "padding",
+      "color",
+      "font",
+      "line-height",
+      "text-align",
+      "background-color",
+      "border",
+      "border-radius",
+      "opacity",
+      "transition",
+      "user-select"
+    ],
+    "plugin/rational-order": [
+      true,
+      {
+        "border-in-box-model": false,
+        "empty-line-between-groups": false
+      }
+    ]
+  }
+}
